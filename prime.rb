@@ -3,10 +3,10 @@ def prime?(number)
   if number <= 1
     is_it_prime = FALSE
   else
-    i = 1
+    i = 2
     is_it_prime = TRUE 
     until i > number
-      if (number%i == 0) & (i!=1)
+      if (number%i == 0) & (i!=2)
         is_it_prime = FALSE
         break
       end
