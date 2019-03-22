@@ -4,11 +4,10 @@ def prime?(number)
     is_it_prime = FALSE
   else
     i = 1
+    is_it_prime = TRUE 
     until i > number
-      if (number%i != 0) & (i!=1)
+      if (number%i == 0) & (i!=1)
         is_it_prime = FALSE
-      else
-        is_it_prime = TRUE
         break
       end
       i+=1 
