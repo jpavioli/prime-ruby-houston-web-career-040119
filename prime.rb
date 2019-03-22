@@ -6,7 +6,7 @@ def prime?(number)
     i = 2
     is_it_prime = TRUE 
     until i == number
-      if (number%i == 0) & (i!=2)
+      if (number%i == 0)
         is_it_prime = FALSE
         break
       end
